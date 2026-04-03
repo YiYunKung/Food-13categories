@@ -1,8 +1,8 @@
 
-FoodClassification - v3 260330
+FoodClassification - v6 2026-04-02 3:07pm
 ==============================
 
-This dataset was exported via roboflow.com on March 30, 2026 at 2:54 PM GMT
+This dataset was exported via roboflow.com on April 2, 2026 at 7:08 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,20 +17,20 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 384 images.
+The dataset includes 480 images.
 Food are annotated in folder format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
-* Resize to 224x224 (Fit within)
+* Resize to 512x512 (Fit within)
 
 The following augmentation was applied to create 3 versions of each source image:
 * 50% probability of horizontal flip
 * Randomly crop between 0 and 20 percent of the image
 * Random rotation of between -15 and +15 degrees
 * Random shear of between -7° to +7° horizontally and -7° to +7° vertically
-* Random brigthness adjustment of between -20 and +20 percent
+* Random brigthness adjustment of between -15 and +15 percent
 * Random exposure adjustment of between -15 and +15 percent
-* Salt and pepper noise was applied to 1.49 percent of pixels
+* Salt and pepper noise was applied to 1.45 percent of pixels
 
 
